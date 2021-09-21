@@ -177,23 +177,18 @@ div.fixed {
 	min-height: 300px
 }
 .jumbotron-bg41 {
-	background-image: url("../fig/A7XLK-001-Banner-041.jpg");
+	background-image: url("../fig/NCCU-001-Banner-41.jpg");
 	background-size: cover;
 	background-position: center center;
 	min-height: 300px
 }
-.jumbotron-bg44 {
-	background-image: url("../fig/A7XLK-001-Banner-044.jpg");
+.jumbotron-bg42 {
+	background-image: url("../fig/NCCU-001-Banner-42.jpg");
 	background-size: cover;
 	background-position: center center;
 	min-height: 300px
 }
-.jumbotron-bg46 {
-	background-image: url("../fig/A7XLK-001-Banner-046.jpg");
-	background-size: cover;
-	background-position: center center;
-	min-height: 300px
-}
+
 .bg-lighter {
 		background-color: rgba(0,0,0,.4)
 }
