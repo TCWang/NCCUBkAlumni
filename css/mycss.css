@@ -146,6 +146,24 @@ div.fixed {
 	background-position: center center;
 	min-height: 300px
 }
+.jumbotron-bg12 {
+	background-image: url("../fig/NCCU-001-Banner-12.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg13 {
+	background-image: url("../fig/NCCU-001-Banner-13.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg14 {
+	background-image: url("../fig/NCCU-001-Banner-14.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
 .jumbotron-bg2 {
 	background-image: url("../fig/NCCU-001-Banner-02.jpg");
 	background-size: cover;
@@ -166,6 +184,18 @@ div.fixed {
 }
 .jumbotron-bg3 {
 	background-image: url("../fig/NCCU-001-Banner-03.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg31 {
+	background-image: url("../fig/NCCU-001-Banner-31.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg32 {
+	background-image: url("../fig/NCCU-001-Banner-32.jpg");
 	background-size: cover;
 	background-position: center center;
 	min-height: 300px
