@@ -1,6 +1,7 @@
 ﻿[
         {
             "No": "101",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "亂世佳人",
             "MovieE": "Gone with the Wind",
@@ -9,6 +10,7 @@
         },
         {
             "No": "102",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "萬夫莫敵",
             "MovieE": "Spartacus",
@@ -17,6 +19,7 @@
         },
         {
             "No": "103",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "戰地琴人",
             "MovieE": "The Pianist",
@@ -25,6 +28,7 @@
         },
         {
             "No": "104",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "四海兄弟 ",
             "MovieE": "Once Upon a Time in America",
@@ -33,6 +37,7 @@
         },
         {
             "No": "105",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "巨人",
             "MovieE": "Giant",
@@ -41,6 +46,7 @@
         },
         {
             "No": "106",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "敎父 ",
             "MovieE": "The Godfather ",
@@ -49,6 +55,7 @@
         },
         {
             "No": "107",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "原罪 ",
             "MovieE": "Original Sin",
@@ -57,6 +64,7 @@
         },
         {
             "No": "108",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "黃昏雙鏢客",
             "MovieE": "For a Fewer Dollars More",
@@ -65,6 +73,7 @@
         },
         {
             "No": "109",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "高年級實習生",
             "MovieE": "The lntern",
@@ -73,6 +82,7 @@
         },
         {
             "No": "110",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "冷山",
             "MovieE": "Cold Mountain",
@@ -81,6 +91,7 @@
         },
         {
             "No": "111",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "真愛至上",
             "MovieE": "Love Actually",
@@ -89,6 +100,7 @@
         },
         {
             "No": "112",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "沉默的羔羊",
             "MovieE": "The Silence of the Lambs",
@@ -97,6 +109,7 @@
         },
         {
             "No": "113",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "北非諜影",
             "MovieE": "Casablanca",
@@ -105,6 +118,7 @@
         },
         {
             "No": "114",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "美國黑幫 ",
             "MovieE": "American Gangster",
@@ -113,6 +127,7 @@
         },
         {
             "No": "115",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "拯救雷恩大兵",
             "MovieE": "Saving Private Ryan",
@@ -121,6 +136,7 @@
         },
         {
             "No": "116",
+            "CountryB": "美國",
             "Country": "美國",
             "MovieC": "鐵達尼號",
             "MovieE": "RMS Titanic",
@@ -129,6 +145,7 @@
         },
         {
             "No": "201",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "殘菊物語",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-201.jpeg",
@@ -136,6 +153,7 @@
         },
         {
             "No": "202",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "隱劍鬼爪",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-202.jpeg",
@@ -143,6 +161,7 @@
         },
         {
             "No": "203",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "ALWAYS幸福的三丁目",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-203.jpeg",
@@ -150,6 +169,7 @@
         },
         {
             "No": "204",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "古都",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-204.jpeg",
@@ -157,6 +177,7 @@
         },
         {
             "No": "205",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "東京暮色",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-205.jpeg",
@@ -164,6 +185,7 @@
         },
         {
             "No": "206",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "潮騷",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-206.jpeg",
@@ -171,6 +193,7 @@
         },
         {
             "No": "207",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "麥秋",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-207.jpeg",
@@ -178,6 +201,7 @@
         },
         {
             "No": "208",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "遠山的呼喚",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-208.jpeg",
@@ -185,6 +209,7 @@
         },
         {
             "No": "209",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "二十四隻眼睛",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-209.jpeg",
@@ -192,6 +217,7 @@
         },
         {
             "No": "210",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "秋日和",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-210.jpeg",
@@ -199,6 +225,7 @@
         },
         {
             "No": "211",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "花束般的戀愛",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-211.jpeg",
@@ -206,6 +233,7 @@
         },
         {
             "No": "212",
+            "CountryB": "日本",
             "Country": "日本",
             "MovieC": "淺田家",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-212.jpeg",
@@ -213,14 +241,16 @@
         },
         {
             "No": "301",
-            "Country": "義大利",
+            "CountryB": "義大利",
+            "Country": "其他",
             "MovieC": "新天堂樂園",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-301.jpeg",
             "Link": "NCCU-32-NM301.html"
         },
         {
             "No": "401",
-            "Country": "台灣",
+            "CountryB": "台灣",
+            "Country": "其他",
             "MovieC": "搭錯車",
             "MovieE": "Papa,Can You Hear Me Sing?",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-401.jpeg",
@@ -228,7 +258,8 @@
         },
         {
             "No": "501",
-            "Country": "印度",
+            "CountryB": "印度",
+            "Country": "其他",
             "MovieC": "貧民百萬富翁",
             "MovieE": "Slumdog Millionaire",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-501.jpeg",
