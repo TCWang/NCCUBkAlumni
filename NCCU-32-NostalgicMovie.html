@@ -224,7 +224,7 @@
                 results() {
                     let posts = this.posts
                         .slice()
-                        .filter(post => post.Country === this.section)
+                        .filter(post => post.CountryA === this.section)
                     let i, j, chunkedArray = [], chunk = 150;
                     for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
                         chunkedArray[j] = posts.slice(i, i + chunk);
