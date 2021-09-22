@@ -117,16 +117,16 @@
     <!-- Vue實例的掛載點 -->
     <!-- InstanceBeginEditable name="main_content" -->
     <article>
-        <div class="container-fluid">
+        <div id="Menu-B1"  class="container-fluid">
             <div class="row">
                 <h3>懷舊電影</h3>
             </div>
 
-            <div id="Menu-B1" class="row">
+            <div class="row">
 
                 <div class="alert alert-info" role="alert">
 
-                    <div class="row">
+                    <div class="row"></div>
                         <div class="col-8">
                             <div class="form-group">
                                 <select class="form-control" v-model="section" id="exampleFormControlSelect1">
@@ -145,20 +145,16 @@
                         <div class="card">
                             <div class="card-header">
                                 {{post.Country}}: <a v-bind:href="post.Link">
-                                    {{ post.MovieC }}
+                                    {{ post.MovieC }} 
                                 </a>
+                                <br> {{post.MovieE}}
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
                                 <div class="row">
-                                    <div class="col-4">
+
                                         <img v-bind:src="post.Figure" class="img-fluid" style="width:150px">
-                                    </div>
-                                    <div class="col-8">
-                                        <dl>
-                                            <dd>{{post.MovieE}}</dd>
-                                        </dl>
-                                    </div>
+
                                 </div>
                                 </p>
                             </div>
