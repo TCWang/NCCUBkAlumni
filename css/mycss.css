@@ -164,6 +164,12 @@ div.fixed {
 	background-position: center center;
 	min-height: 300px
 }
+.jumbotron-bg15 {
+	background-image: url("../fig/NCCU-001-Banner-15.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
 .jumbotron-bg2 {
 	background-image: url("../fig/NCCU-001-Banner-02.jpg");
 	background-size: cover;
