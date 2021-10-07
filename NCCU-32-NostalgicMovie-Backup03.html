@@ -100,7 +100,7 @@
 
     <!-- Jumbotron-->
     <!-- InstanceBeginEditable name="JumbotronRegion" -->
-    <div class="jumbotron jumbotron-fluid jumbotron-bg31 d-flex align-items-end">
+    <div class="jumbotron jumbotron-fluid jumbotron-bg32 d-flex align-items-end">
         <div class="container">
             <div class="bg-lighter p-1" style="width:300px">
                 <h5 class="text-white">電影 - 孫全玉</h5>
@@ -119,12 +119,12 @@
     <article>
         <div id="Menu-B1" class="container-fluid">
             <div class="row">
-                <h3>今日電影</h3>
+                <h3>懷舊電影</h3>
             </div>
 
 
 
-            <div class="alert alert-info" style="display:none;" role="alert">
+            <div class="alert alert-info" role="alert">
 
                 <div class="alert alert-info mt-1" role="alert">
                     <div class="row">
@@ -154,7 +154,7 @@
                             <p class="card-text">
                             <div class="row">
                                 <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
-                            
+
                             </div>
                             </p>
                         </div>
@@ -203,7 +203,7 @@
 
     <script>
         const posts = []
-        const SECTIONS_01 = "今日電影"
+        const SECTIONS_01 = "美國, 日本, 其他"
 
         new Vue({
             el: '#Menu-B1',
@@ -211,7 +211,7 @@
                 posts,
                 // results: [],
                 sections: SECTIONS_01.split(', '),
-                section: '今日電影'
+                section: '美國'
             },
             filter: {
                 formatted(value) {
@@ -233,7 +233,7 @@
             },
 
             mounted() {
-                axios.get('db/NCCU-411-InTheatersToday.json').then((response) => {
+                axios.get('db/NCCU-421-NostalgicMovie.json').then((response) => {
                     this.posts = response.data;
                     this.getPostsByCategory(this.section)
                 }).catch(error => { console.log(error); });

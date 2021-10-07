@@ -117,55 +117,124 @@
     <!-- Vue實例的掛載點 -->
     <!-- InstanceBeginEditable name="main_content" -->
     <article>
-        <div id="Menu-B1" class="container-fluid">
+
+        <div class="container-fluid">
             <div class="row">
                 <h3>懷舊電影</h3>
             </div>
 
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="list-group" id="MenuList" role="tablist">
+                        <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">美國</a>
+                        <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">日本</a>
+                        <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">其他</a>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-10">
+
+                    <div class="tab-content">
+                        <!-- Menu B1 -->
+                        <div class="tab-pane  active" id="Menu-B1" role="tabpanel">
+                            <div id="app1" class="row">
+                                <h5>美國</h5>
+                                <div class="row" v-for="posts in results">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                {{post.CountryB}}: <a v-bind:href="post.Link">
+                                                    {{ post.MovieC }}
+                                                </a>
+                                                <br> 
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                <div class="row">
+                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
+                    
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
 
-            <div class="alert alert-info" role="alert">
-
-                <div class="alert alert-info mt-1" role="alert">
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <select class="form-control" v-model="section" id="exampleFormControlSelect1">
-                                    <option v-for="section in sections">{{ section }}</option>
-                                </select>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <h5 class="text-center">選擇區域</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" v-for="posts in results">
-                <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
-                    <div class="card">
-                        <div class="card-header">
-                            {{post.CountryB}}: <a v-bind:href="post.Link">
-                                {{ post.MovieC }}
-                            </a>
-                            <br> {{post.MovieE}}
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">
-                            <div class="row">
 
-                                <img v-bind:src="post.Figure" class="img-fluid" style="width:400px">
+
+                        <!-- Menu B2 -->
+                        <div class="tab-pane" id="Menu-B2" role="tabpanel">
+                            <div class="row mb-2">
+                                <h5>日本</h5>
+                                <div class="row" v-for="posts in results">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                {{post.CountryB}}: <a v-bind:href="post.Link">
+                                                    {{ post.MovieC }}
+                                                </a>
+                                                <br> 
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                <div class="row">
+                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
+                    
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
 
                             </div>
-                            </p>
                         </div>
+
+
+                        <!-- Menu B3 -->
+                        <div class="tab-pane" id="Menu-B3" role="tabpanel">
+                            <div id="app3" class="row">
+                                <h5>其他</h5>
+                                <div class="row" v-for="posts in results">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                {{post.CountryB}}: <a v-bind:href="post.Link">
+                                                    {{ post.MovieC }}
+                                                </a>
+                                                <br> 
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                <div class="row">
+                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
+                    
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
+
+                            </div>
+                        </div>
+
+
+
+                        <!-- 插入下一項 -->
+
+
                     </div>
+
                 </div>
             </div>
 
+        </div>        
 
-
-        </div>
+ 
 
     </article>
     <!-- InstanceEndEditable -->
@@ -204,14 +273,16 @@
 
     <script>
         const posts = []
-        const SECTIONS_01 = "美國, 日本, 其他"
+        const SECTIONS_B1 = "美國"
+        const SECTIONS_B1 = "日本"
+        const SECTIONS_B1 = "其他"                
 
         new Vue({
             el: '#Menu-B1',
             data: {
                 posts,
                 // results: [],
-                sections: SECTIONS_01.split(', '),
+                sections: SECTIONS_B1.split(', '),
                 section: '美國'
             },
             filter: {
@@ -240,6 +311,76 @@
                 }).catch(error => { console.log(error); });
             },
         });
+
+        new Vue({
+            el: '#Menu-B2',
+            data: {
+                posts,
+                // results: [],
+                sections: SECTIONS_B1.split(', '),
+                section: '日本'
+            },
+            filter: {
+                formatted(value) {
+                    return ' 以下是 ${value} 類別的貼文 '
+                }
+            },
+
+            computed: {
+                results() {
+                    let posts = this.posts
+                        .slice()
+                        .filter(post => post.CountryA === this.section)
+                    let i, j, chunkedArray = [], chunk = 150;
+                    for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                        chunkedArray[j] = posts.slice(i, i + chunk);
+                    }
+                    return chunkedArray
+                }
+            },
+
+            mounted() {
+                axios.get('db/NCCU-421-NostalgicMovie.json').then((response) => {
+                    this.posts = response.data;
+                    this.getPostsByCategory(this.section)
+                }).catch(error => { console.log(error); });
+            },
+        });
+
+        new Vue({
+            el: '#Menu-B3',
+            data: {
+                posts,
+                // results: [],
+                sections: SECTIONS_B1.split(', '),
+                section: '其他'
+            },
+            filter: {
+                formatted(value) {
+                    return ' 以下是 ${value} 類別的貼文 '
+                }
+            },
+
+            computed: {
+                results() {
+                    let posts = this.posts
+                        .slice()
+                        .filter(post => post.CountryA === this.section)
+                    let i, j, chunkedArray = [], chunk = 150;
+                    for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                        chunkedArray[j] = posts.slice(i, i + chunk);
+                    }
+                    return chunkedArray
+                }
+            },
+
+            mounted() {
+                axios.get('db/NCCU-421-NostalgicMovie.json').then((response) => {
+                    this.posts = response.data;
+                    this.getPostsByCategory(this.section)
+                }).catch(error => { console.log(error); });
+            },
+        });                
 
     </script>
     <!-- InstanceEndEditable -->
