@@ -144,6 +144,29 @@
             "Link": "NCCU-32-NM116.html"
         },
         {
+            "No": "117",
+            "CountryB": "美國",
+            "CountryA": "美國",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-117.jpeg",
+            "Link": "NCCU-32-NM117.html"
+        },
+        {
+            "No": "118",
+            "CountryB": "美國",
+            "CountryA": "美國",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-118.jpeg",
+            "Link": "NCCU-32-NM118.html"
+        },
+        {
+            "No": "119",
+            "CountryB": "美國",
+            "CountryA": "美國",
+            "MovieC": "火線追緝令",
+            "MovieE": "Seven",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-119.jpeg",
+            "Link": "NCCU-32-NM119.html"
+        },
+        {
             "No": "201",
             "CountryB": "日本",
             "CountryA": "日本",
@@ -255,6 +278,15 @@
             "MovieE": "Papa,Can You Hear Me Sing?",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-401.jpeg",
             "Link": "NCCU-32-NM401.html"
+        },
+        {
+            "No": "402",
+            "CountryB": "台灣",
+            "CountryA": "其他",
+            "MovieC": "英烈千秋",
+            "MovieE": "Everlasting Glory",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-402.jpeg",
+            "Link": "NCCU-32-NM402.html"
         },
         {
             "No": "501",
