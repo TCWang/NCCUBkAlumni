@@ -146,13 +146,14 @@
                                                 {{post.CountryB}}: <a v-bind:href="post.Link">
                                                     {{ post.MovieC }}
                                                 </a>
-                                                <br> 
+                                                <br>
                                             </div>
                                             <div class="card-body">
                                                 <p class="card-text">
                                                 <div class="row">
-                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
-                    
+                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure"
+                                                            class="img-fluid" style="width:400px"> </a>
+
                                                 </div>
                                                 </p>
                                             </div>
@@ -176,19 +177,20 @@
                                                 {{post.CountryB}}: <a v-bind:href="post.Link">
                                                     {{ post.MovieC }}
                                                 </a>
-                                                <br> 
+                                                <br>
                                             </div>
                                             <div class="card-body">
                                                 <p class="card-text">
                                                 <div class="row">
-                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
-                    
+                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure"
+                                                            class="img-fluid" style="width:400px"> </a>
+
                                                 </div>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>
 
                             </div>
                         </div>
@@ -205,19 +207,20 @@
                                                 {{post.CountryB}}: <a v-bind:href="post.Link">
                                                     {{ post.MovieC }}
                                                 </a>
-                                                <br> 
+                                                <br>
                                             </div>
                                             <div class="card-body">
                                                 <p class="card-text">
                                                 <div class="row">
-                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
-                    
+                                                    <a v-bind:href="post.Link"> <img v-bind:src="post.Figure"
+                                                            class="img-fluid" style="width:400px"> </a>
+
                                                 </div>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>
 
                             </div>
                         </div>
@@ -232,9 +235,9 @@
                 </div>
             </div>
 
-        </div>        
+        </div>
 
- 
+
 
     </article>
     <!-- InstanceEndEditable -->
@@ -274,8 +277,8 @@
     <script>
         const posts = []
         const SECTIONS_B1 = "美國"
-        const SECTIONS_B1 = "日本"
-        const SECTIONS_B1 = "其他"                
+        const SECTIONS_B2 = "日本"
+        const SECTIONS_B3 = "其他"
 
         new Vue({
             el: '#Menu-B1',
@@ -317,7 +320,7 @@
             data: {
                 posts,
                 // results: [],
-                sections: SECTIONS_B1.split(', '),
+                sections: SECTIONS_B2.split(', '),
                 section: '日本'
             },
             filter: {
@@ -352,7 +355,7 @@
             data: {
                 posts,
                 // results: [],
-                sections: SECTIONS_B1.split(', '),
+                sections: SECTIONS_B3.split(', '),
                 section: '其他'
             },
             filter: {
@@ -380,7 +383,7 @@
                     this.getPostsByCategory(this.section)
                 }).catch(error => { console.log(error); });
             },
-        });                
+        });
 
     </script>
     <!-- InstanceEndEditable -->
