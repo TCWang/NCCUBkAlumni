@@ -156,6 +156,8 @@
             "No": "118",
             "CountryB": "美國",
             "CountryA": "美國",
+            "MovieC": "情婦",
+            "MovieE": "Witness for the Prosecution",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-118.jpeg",
             "Link": "NCCU-32-NM118.html"
         },
@@ -167,6 +169,15 @@
             "MovieE": "Seven",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-119.jpeg",
             "Link": "NCCU-32-NM119.html"
+        },
+        {
+            "No": "120",
+            "CountryB": "美國",
+            "CountryA": "美國",
+            "MovieC": " 偷龍轉鳳",
+            "MovieE": "How to Steal a Million",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-120.jpeg",
+            "Link": "NCCU-32-NM120.html"
         },
         {
             "No": "201",
@@ -273,6 +284,22 @@
             "Link": "NCCU-32-NM213.html"
         },
         {
+            "No": "214",
+            "CountryB": "日本",
+            "CountryA": "日本",
+            "MovieC": "切腹",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-214.jpeg",
+            "Link": "NCCU-32-NM214.html"
+        },
+        {
+            "No": "215",
+            "CountryB": "日本",
+            "CountryA": "日本",
+            "MovieC": "侍",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-215.jpeg",
+            "Link": "NCCU-32-NM215.html"
+        },
+        {
             "No": "301",
             "CountryB": "義大利",
             "CountryA": "其他",
@@ -297,6 +324,15 @@
             "MovieE": "Everlasting Glory",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-402.jpeg",
             "Link": "NCCU-32-NM402.html"
+        },
+        {
+            "No": "403",
+            "CountryB": "台灣",
+            "CountryA": "其他",
+            "MovieC": "悲情城市",
+            "MovieE": "A City of Sadness",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-403.jpeg",
+            "Link": "NCCU-32-NM403.html"
         },
         {
             "No": "501",
