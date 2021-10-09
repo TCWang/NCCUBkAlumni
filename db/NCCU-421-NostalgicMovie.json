@@ -342,5 +342,21 @@
             "MovieE": "Slumdog Millionaire",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-501.jpeg",
             "Link": "NCCU-32-NM501.html"
+        },
+        {
+            "No": "601",
+            "CountryB": "中國",
+            "CountryA": "其他",
+            "MovieC": "紅柿子",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-601.jpeg",
+            "Link": "NCCU-32-NM601.html"
+        },
+        {
+            "No": "602",
+            "CountryB": "中國",
+            "CountryA": "其他",
+            "MovieC": "茶舘",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-602.jpeg",
+            "Link": "NCCU-32-NM602.html"
         }
     ]
