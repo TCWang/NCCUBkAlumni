@@ -180,6 +180,24 @@
             "Link": "NCCU-32-NM120.html"
         },
         {
+            "No": "121",
+            "CountryB": "美國",
+            "CountryA": "美國",
+            "MovieC": "未代武士",
+            "MovieE": "The Last Samurai",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-121.jpeg",
+            "Link": "NCCU-32-NM121.html"
+        },
+        {
+            "No": "122",
+            "CountryB": "美國",
+            "CountryA": "美國",
+            "MovieC": "永不妥協",
+            "MovieE": "Erin Brockovich",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-122.jpeg",
+            "Link": "NCCU-32-NM122.html"
+        },
+        {
             "No": "201",
             "CountryB": "日本",
             "CountryA": "日本",
@@ -358,5 +376,22 @@
             "MovieC": "茶舘",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-602.jpeg",
             "Link": "NCCU-32-NM602.html"
+        },
+        {
+            "No": "603",
+            "CountryB": "中國香港",
+            "CountryA": "其他",
+            "MovieC": "投名狀",
+            "MovieE": "The Warlords",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-603.jpeg",
+            "Link": "NCCU-32-NM603.html"
+        },
+        {
+            "No": "604",
+            "CountryB": "中國",
+            "CountryA": "其他",
+            "MovieC": "刺馬",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-604.jpeg",
+            "Link": "NCCU-32-NM604.html"
         }
     ]
