@@ -8,26 +8,8 @@ body {
         "Helvetica Neue", sans-serif; //備援字體
     */
 }
-#app footer {
-}
-article {
-    padding: 0 5px 2px 5px;
-    margin: 0 5px 2px 5px;
-}
-#main_heading {
-    padding: 0 5px 2px 5px;
-}
-footer {
-}
-.form-group {
-    margin: 0px;
-}
-.form-group {
-    margin: 0px;
-}
-#Menu-B4 .row #app4 {
-    margin-left: 1px;
-}
+
+
 
 @media (max-width:543px) {
     h1, h2 {font-size:1.0rem;}
