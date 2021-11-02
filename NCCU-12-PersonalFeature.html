@@ -120,7 +120,7 @@
 		<h3>個人特寫</h3>
 		<div id="app" class="container-fluid">
 
-			<div  class="alert alert-info mt-1" style="display:none;" role="alert">
+			<div class="alert alert-info mt-1" style="display:none;" role="alert">
 				<div class="row">
 					<div class="col-8">
 						<div class="form-group">
@@ -139,8 +139,8 @@
 				<div class="col-md-6  col-xl-4" v-for="post in posts">
 					<div class="card">
 						<div class="card-header">
-						{{post.Name}} <br>
-						<p v-html="post.Figure"></p>
+							{{post.Name}} <br>
+							<p v-html="post.Figure"></p>
 						</div>
 						<div class="card-body">
 							<p v-html="post.Feature"></p>
@@ -148,13 +148,13 @@
 							<p v-html="post.Document"></p>
 							</p>
 
+						</div>
+
 					</div>
 
 				</div>
 
 			</div>
-
-		</div>
 
 	</article>
 	<!-- InstanceEndEditable -->
@@ -189,7 +189,9 @@
 		$('.list-group a').on('shown.bs.tab', function (e) {
 			window.location.hash = e.target.hash;
 		})
-		<script>
+	</script>
+
+	<script>
 		const posts = []
 		const SECTIONS_TW = "PersonalFeature"
 		new Vue({
@@ -228,6 +230,9 @@
 			},
 
 		});
+
+	</script>
+
 	<!-- InstanceEndEditable -->
 
 </body>
