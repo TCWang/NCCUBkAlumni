@@ -140,7 +140,7 @@
 					<div class="card">
 						<div class="card-header">
 							{{post.Name}} <br>
-							<p v-html="post.Figure"></p>
+							<img v-bind:src="post.Figure" class="img-fluid" style="width:600px">
 						</div>
 						<div class="card-body">
 							<p v-html="post.Feature"></p>
