@@ -6,7 +6,8 @@
             "MovieC": "亂世佳人",
             "MovieE": "Gone with the Wind",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-101.jpeg",
-            "Link": "NCCU-32-NM101.html"
+            "Link": "NCCU-32-NM101.html",
+            "Online": "https://gimytv.com/ep-h48-1-1.html"
         },
         {
             "No": "102",
@@ -196,6 +197,15 @@
             "MovieE": "Erin Brockovich",
             "Figure": "fig/NCCU-32-Movie/NCCU-32-122.jpeg",
             "Link": "NCCU-32-NM122.html"
+        },
+        {
+            "No": "123",
+            "CountryB": "美國",
+            "CountryA": "美國",
+            "MovieC": "十二怒漢",
+            "MovieE": "Twelve Angry Me",
+            "Figure": "fig/NCCU-32-Movie/NCCU-32-123.jpg",
+            "Link": "NCCU-32-NM123.html"
         },
         {
             "No": "201",

@@ -16,5 +16,21 @@
             "MovieE": "Dune",
             "Figure": "fig/NCCU-31-Movie/NCCU-31-902.jpeg",
             "Link": "NCCU-31-NM902.html"
+        },
+        {
+            "No": "903",
+            "CountryB": "美國",
+            "CountryA": "今日電影",
+            "MovieC": "為你找個家",
+            "MovieE": "Nowhere Special",
+            "Figure": "fig/NCCU-31-Movie/NCCU-31-903.jpg",
+            "Link": "NCCU-31-NM903.html"
+        },
+        {
+            "No": "904",
+            "CountryB": "美國",
+            "CountryA": "今日電影",
+            "Figure": "fig/NCCU-31-Movie/NCCU-31-904.jpg",
+            "Link": "NCCU-31-NM904.html"
         }
     ]
