@@ -25,5 +25,14 @@
             "MovieE": "King Richard",
             "Figure": "fig/NCCU-31-Movie/NCCU-31-904.jpg",
             "Link": "NCCU-31-NM904.html"
+        },
+        {
+            "No": "905",
+            "CountryB": "美國",
+            "CountryA": "今日電影",
+            "MovieC": "無暇赴死",
+            "MovieE": "No Time to Die",
+            "Figure": "fig/NCCU-31-Movie/NCCU-31-905.jpg",
+            "Link": "NCCU-31-NM905.html"
         }
     ]
