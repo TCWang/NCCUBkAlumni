@@ -141,6 +141,7 @@
                     </div>
                 </div>
             </div>
+            <span class="text-danger" >點擊片名-進入影評網頁，點擊圖片-直接線上觀賞。</span>
             <div class="row" v-for="posts in results">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
                     <div class="card">
@@ -153,7 +154,7 @@
                         <div class="card-body">
                             <p class="card-text">
                             <div class="row">
-                                <a v-bind:href="post.Link"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
+                                <a v-bind:href="post.View"> <img v-bind:src="post.Figure" class="img-fluid" style="width:400px"> </a>
                             
                             </div>
                             </p>
