@@ -1,11 +1,19 @@
 ﻿[
         {
-            "No": "001",
+            "No": "004",
             "Category": "PersonalFeature",
-            "Name": "王台鳳",
-            "Figure": "fig/NCCU-121-王台鳳.png",
-            "Feature": "學歷：\r\n<ul>\r\n   <li>1971年畢業於國立政治大學銀行系</li>\r\n</ul>\r\n經歷：\r\n<ul>\r\n   <li>1972年 入中華電信股份有限公司（前臺北電話局）服務。</li>\r\n   <li> 1992年 從事黃頁（Yellow Pages 電話號碼簿）業務擔任科長職務。 </li>\r\n   <li>    2007年-2015年 中華國際黃頁股份有限公司精策處經理。 資深黃頁工作者。 </li>\r\n</ul>\r\n",
-            "Document": "<ul>\r\n    <li> <a href=\"file/NCCU-121-黃頁的前世今生-20211102.pdf\">黃頁的前世今生</a> </li>\r\n</ul>"
+            "Name": "黃和平",
+            "Figure": "fig/NCCU-121-黃和平.jpg",
+            "Feature": "學歷：\r\n<ul>\r\n   <li>1971年畢業於國立政治大學銀行系</li>\r\n</ul>\r\n經歷：\r\n<ul>\r\n   <li>1971年5月1日  進入國泰航空公司，服務25年期滿退休。</li>\r\n   <li>1996年 移民加拿大居住7年。 </li>\r\n   <li>2003年 移民美國居住13年。</li>\r\n   <li> 2016年 定居台灣。</li>\r\n</ul>\r\n",
+            "Document": "<ul>\r\n    <li> <a href=\"https://tcwang.github.io/NCCUBkAlumni/NCCU-13-MissMembers.html\"> 追憶故友李重威（七仙女之一）</a> </li>\r\n</ul>"
+        },
+        {
+            "No": "003",
+            "Category": "PersonalFeature",
+            "Name": "孫全玉",
+            "Figure": "fig/NCCU-121-孫全玉.jpg",
+            "Feature": "學歷：\r\n<ul>\r\n   <li>1971年畢業於國立政治大學銀行系</li>\r\n</ul>\r\n經歷：\r\n<ul>\r\n   <li>中央銀行金融業務檢查處處長</li>\r\n   <li>  2000年7月至2004年6月  擔任中央銀行駐紐約代表辦事處主任 </li>\r\n</ul>\r\n",
+            "Document": "<ul>\r\n    <li> <a href=\"file/NCCU-121-911事件回憶錄-20210912.pdf\">911事件回憶錄</a> </li>\r\n    <li> <a href=\"file/NCCU-121-我是麻將資優生-20211104.pdf\">我是麻將資優生</a> </li>\r\n</ul>"
         },
         {
             "No": "002",
@@ -16,11 +24,11 @@
             "Document": "<ul>\r\n    <li> <a href=\"file/NCCU-121-愛情傳奇指南山下-20211102.pdf\">愛情傳奇-指南山下</a> </li>\r\n</ul>"
         },
         {
-            "No": "003",
+            "No": "001",
             "Category": "PersonalFeature",
-            "Name": "孫全玉",
-            "Figure": "fig/NCCU-121-孫全玉.jpg",
-            "Feature": "學歷：\r\n<ul>\r\n   <li>1971年畢業於國立政治大學銀行系</li>\r\n</ul>\r\n經歷：\r\n<ul>\r\n   <li>中央銀行金融業務檢查處處長</li>\r\n   <li>  2000年7月至2004年6月  擔任中央銀行駐紐約代表辦事處主任 </li>\r\n</ul>\r\n",
-            "Document": "<ul>\r\n    <li> <a href=\"file/NCCU-121-911事件回憶錄-20210912.pdf\">911事件回憶錄</a> </li>\r\n    <li> <a href=\"file/NCCU-121-我是麻將資優生-20211104.pdf\">我是麻將資優生</a> </li>\r\n</ul>"
+            "Name": "王台鳳",
+            "Figure": "fig/NCCU-121-王台鳳.png",
+            "Feature": "學歷：\r\n<ul>\r\n   <li>1971年畢業於國立政治大學銀行系</li>\r\n</ul>\r\n經歷：\r\n<ul>\r\n   <li>1972年 入中華電信股份有限公司（前臺北電話局）服務。</li>\r\n   <li> 1992年 從事黃頁（Yellow Pages 電話號碼簿）業務擔任科長職務。 </li>\r\n   <li>    2007年-2015年 中華國際黃頁股份有限公司精策處經理。 資深黃頁工作者。 </li>\r\n</ul>\r\n",
+            "Document": "<ul>\r\n    <li> <a href=\"file/NCCU-121-黃頁的前世今生-20211102.pdf\">黃頁的前世今生</a> </li>\r\n</ul>"
         }
     ]
