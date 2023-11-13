@@ -51,9 +51,8 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-home"></i>我們這一班 </a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>我們這一班 </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="index.html">群體描述</a>
 						<a class="dropdown-item" href="NCCU-12-PersonalFeature.html">個人特寫</a>
@@ -64,9 +63,8 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-briefcase"></i>金融知識 </a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>金融知識 </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="NCCU-21-ProfessionalKnowledge.html">專業知識</a>
 						<a class="dropdown-item" href="NCCU-22-ReportToday.html">今日報導</a>
@@ -74,9 +72,8 @@
 				</li>
 
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-file-video"></i>電影介紹</a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-file-video"></i>電影介紹</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="NCCU-31-InTheatersToday.html">今日電影</a>
 						<a class="dropdown-item" href="NCCU-32-NostalgicMovie.html">懷舊電影</a>
@@ -85,9 +82,8 @@
 
 
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
-							class="fas fa-globe-americas"></i>浪跡天涯</a>
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false"> <i class="fas fa-globe-americas"></i>浪跡天涯</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="NCCU-41-SouthAmerica.html">中南美洲</a>
 						<a class="dropdown-item" href="NCCU-42-OtherArea.html">其他地區</a>
@@ -138,7 +134,7 @@
 				<div class="col-md-6  col-xl-4" v-for="post in posts">
 					<div class="card">
 						<div class="card-header">
-						{{post.Year}} -	{{ post.Title }}
+							{{post.Year}} - {{ post.Title }}
 						</div>
 						<div class="card-body">
 							<p class="card-text">
@@ -148,7 +144,8 @@
 								<dd>場所：{{post.Place}}</dd>
 								<dd>參加人員：{{post.Member}}</dd>
 							</dl>
-							<span> {{post.Description}} </span><br>
+
+							<p v-html="post.Description"></p>
 							<p v-html="post.Figure"></p>
 							</p>
 						</div>
@@ -197,14 +194,14 @@
 
 	<script>
 		const posts = []
-		const SECTIONS_TW = "2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015"
+		const SECTIONS_TW = "2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015"
 		new Vue({
 			el: '#app',
 			data: {
 				posts,
 				// results: [],
 				sections: SECTIONS_TW.split(', '),
-				section: '2022'
+				section: '2023'
 			},
 			filter: {
 				formatted(value) {
