@@ -131,7 +131,7 @@
 			</div>
 
 			<div class="row" v-for="posts in results">
-				<div class="col-md-6  col-xl-4" v-for="post in posts">
+				<div class="col-xl-6" v-for="post in posts">
 					<div class="card">
 						<div class="card-header">
 							{{post.Year}} - {{ post.Title }}
@@ -194,14 +194,14 @@
 
 	<script>
 		const posts = []
-		const SECTIONS_TW = "2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015"
+		const SECTIONS_TW = "2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015"
 		new Vue({
 			el: '#app',
 			data: {
 				posts,
 				// results: [],
 				sections: SECTIONS_TW.split(', '),
-				section: '2024'
+				section: '2025'
 			},
 			filter: {
 				formatted(value) {
